@@ -9,7 +9,7 @@ body{
 }
 
 .canvas{
-    width:550px;
+    width: 550px;
     height: 500px;
     background-color: white;
     border-radius: 15px;
@@ -17,7 +17,7 @@ body{
 }
 
 .controls{
-    display: flex;
+    display:flex;
     flex-direction: column;
     margin-top: 50px;
     align-items: center;
