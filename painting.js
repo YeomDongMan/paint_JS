@@ -108,3 +108,17 @@ if(mode){
 if(save){
     save.addEventListener("click", handleSaveClick);
 }
+
+const erase = document.querySelector("#jsErase");
+
+function handleEraseMode() {
+    const presentColor = ctx.fillStyle;
+    ctx.fillStyle = "white";
+    ctx.fillRect(0, 0, 550, 500);
+    ctx.fillStyle = presentColor;
+}
+
+if(erase){
+    erase.addEventListener("click", handleEraseMode);
+
+}
